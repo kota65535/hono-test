@@ -1,0 +1,10 @@
+{
+  "name": "hono-test",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "1.2.5"
+  }
+}

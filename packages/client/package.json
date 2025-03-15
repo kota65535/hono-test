@@ -1,0 +1,13 @@
+{
+  "name": "@hono-test/client",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.7.4",
+    "@hono-test/server": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
