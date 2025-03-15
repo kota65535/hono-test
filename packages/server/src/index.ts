@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import todoRoute from "./routes/todo";
+import todoRoute from "@/routes/todo";
 
 const app = new Hono()
 
